@@ -1,0 +1,15 @@
+{
+  "name": "afl-site",
+  "version": "1.0.0",
+  "description": "AFL — Official Items & Ticket Requests",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/smoke.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "UNLICENSED"
+}
